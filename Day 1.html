@@ -3,12 +3,25 @@
         <title>
             Day 1 HTML
         </title>
-        <script>
-
-        </script>
+        <style>
+            /*below is a css element selector*/
+            .head1{
+                text-align: center;
+                font-family: 'verdana';
+            }
+            body{
+                background-color: rgb(19, 154, 204);
+            }
+            /* below is a css id selector */
+            #h1c{
+                color: red;
+            }
+        </style>
+        <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <h2 id="h2"></h2>
+       <div id="rc1"><h2 id="head1">Day 1</h2></div>
+    
         <script type="text/javascript">
             document.write('this is the document write <br>');
             console.log("hello");
@@ -24,6 +37,8 @@
             var az= 10,bz=20;
             document.write(az+bz);
         </script>
+        <br>
+        <!--on below js is external file-->
         <script src="./Day 1.js"></script>
         <br>
         <button onclick="alert('hello this is button click alert !!');">Click Me !!</button>
