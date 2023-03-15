@@ -10,17 +10,22 @@
     <body>
         <h2 id="h2"></h2>
         <script type="text/javascript">
-            document.write('this is the document write ');
+            document.write('this is the document write <br>');
             console.log("hello");
             window.alert("this is pop up");
             alert('alert');
-            let a= 5,b=5;
-            let c= document.write(a+b);
-            console.log(c);
+            
+            //veriable
+            let a= 5,b=5,c=a+b;
+            document.write("here we declear two variable a and b <br> a=5<br>b=5<br>");
+            document.write("here we add a+b =" + c + "<br>");
+            
             // Operator and experssions
             var az= 10,bz=20;
             document.write(az+bz);
-            
         </script>
+        <script src="./Day 1.js"></script>
+        <br>
+        <button onclick="alert('hello this is button click alert !!');">Click Me !!</button>
     </body>
 </html>
